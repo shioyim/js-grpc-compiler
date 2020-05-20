@@ -1,0 +1,27 @@
+{
+  "name": "test-grpc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile -f" : "chmod a+x ./scripts/protoc.sh;./scripts/protoc.sh",
+    "compile" : "./scripts/protoc.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "google-protobuf": "^3.12.0",
+    "grpc": "^1.24.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/google-protobuf": "^3.7.2",
+    "@types/node": "^14.0.4",
+    "grpc-tools": "^1.8.1",
+    "grpc_tools_node_protoc_ts": "^3.0.0",
+    "typescript": "^3.9.3"
+  }
+}
